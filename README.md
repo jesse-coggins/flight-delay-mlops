@@ -24,6 +24,8 @@ Create a reproducible pipeline that prepares airline on-time data, trains a dela
 - DVC
 - MLflow
 - FastAPI
+- Docker
+- GitLab CI/CD
 - pytest
 
 ## Model
