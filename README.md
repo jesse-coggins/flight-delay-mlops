@@ -37,6 +37,12 @@ Create a reproducible pipeline that prepares airline on-time data, trains a dela
 - Final test MSE: 82.51
 - Average predicted delay: 4.68 minutes
 
+## Selected Visuals
+
+![Performance plot](assets/performance_plot.png)
+
+![Model performance output](assets/model_performance_test.jpg)
+
 ## API
 ### Endpoints
 - `GET /`
