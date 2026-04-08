@@ -59,6 +59,12 @@ The copied test suite covers:
 - missing required parameters returns `422`
 
 ## Included Files
+- `Dockerfile`
+- `.gitlab-ci.yml`
+- `deployment_api.py`
+- `airport_encodings.json`
+- `finalized_model.pkl`
+- `api_tests.py`
 - `src/Task_2.py`
 - `src/Task_2_MLFlow.py`
 - `src/deployment_api.py`
@@ -76,4 +82,9 @@ The copied test suite covers:
 - `assets/performance_plot.png`
 
 ## Note
-The original GitLab-hosted `MLproject`, `Dockerfile`, and `.gitlab-ci.yml` files were not present in the local coursework folders, so they are not included in this staging copy.
+This public portfolio repo keeps two parallel layouts for transparency:
+
+- Root-level `Dockerfile`, `.gitlab-ci.yml`, `deployment_api.py`, `airport_encodings.json`, `finalized_model.pkl`, and `api_tests.py` preserve the original GitLab-style deployment artifacts recovered from the coursework files.
+- The `src/` and `tests/` directories preserve the cleaned public portfolio structure used elsewhere in this repo.
+
+The original `MLproject` file was not available in the local coursework archive, so it is still not included here.
