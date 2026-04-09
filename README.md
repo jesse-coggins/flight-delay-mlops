@@ -64,15 +64,17 @@ The copied test suite covers:
 - The root-level deployment artifacts now include the original `airport_encodings.json` and `finalized_model.pkl` files used by the recovered GitLab-style API layout.
 - The `src/` and `tests/` directories keep the cleaned portfolio structure used elsewhere in this repository.
 
+## Notebooks
+- `notebooks/flight_delay_pipeline.ipynb` — end-to-end data pipeline: imports and formats BTS on-time data, filters to Atlanta departures, cleans missing values and duplicates, trains Ridge regression, and evaluates on the test set
+- `notebooks/flight_delay_mlflow_tracking.ipynb` — MLflow experiment tracking run: sweeps 20 alpha values, logs parameters, metrics, and the final model artifact
+
 ## Included Files
+- `notebooks/flight_delay_pipeline.ipynb`
+- `notebooks/flight_delay_mlflow_tracking.ipynb`
 - `Dockerfile`
 - `.gitlab-ci.yml`
 - `deployment_api.py`
-- `airport_encodings.json`
-- `finalized_model.pkl`
 - `api_tests.py`
-- `src/Task_2.py`
-- `src/Task_2_MLFlow.py`
 - `src/deployment_api.py`
 - `src/airport_encodings.json`
 - `src/finalized_model.pkl`
