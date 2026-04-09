@@ -60,6 +60,10 @@ The copied test suite covers:
 - invalid time format returns `400`
 - missing required parameters returns `422`
 
+## Reproducibility Notes
+- The root-level deployment artifacts now include the original `airport_encodings.json` and `finalized_model.pkl` files used by the recovered GitLab-style API layout.
+- The `src/` and `tests/` directories keep the cleaned portfolio structure used elsewhere in this repository.
+
 ## Included Files
 - `Dockerfile`
 - `.gitlab-ci.yml`
@@ -86,7 +90,7 @@ The copied test suite covers:
 ## Note
 This public portfolio repo keeps two parallel layouts for transparency:
 
-- Root-level `Dockerfile`, `.gitlab-ci.yml`, `deployment_api.py`, `airport_encodings.json`, `finalized_model.pkl`, and `api_tests.py` preserve the original GitLab-style deployment artifacts recovered from the coursework files.
+- Root-level `Dockerfile`, `.gitlab-ci.yml`, `deployment_api.py`, `airport_encodings.json`, `finalized_model.pkl`, and `api_tests.py` preserve the original GitLab-style deployment artifacts restored from the original Task 3 coursework folder.
 - The `src/` and `tests/` directories preserve the cleaned public portfolio structure used elsewhere in this repo.
 
 The original `MLproject` file was not available in the local coursework archive, so it is still not included here.
