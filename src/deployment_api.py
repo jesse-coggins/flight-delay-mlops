@@ -45,13 +45,7 @@ def create_airport_encoding(airport: str, airports: dict) -> np.array:
     else:
         return None
 
-# TODO:  
-# write the back-end logic to provide a prediction given the inputs
-# requires finalized_model.pkl to be loaded 
-# the model must be passed a NumPy array consisting of the following:
-# (polynomial order, encoded airport array, departure time as seconds since midnight, arrival time as seconds since midnight)
-# the polynomial order is 1 unless you changed it during model training in Task 2
-# YOUR CODE GOES HERE
+
 
 
 
@@ -91,9 +85,7 @@ with open(BASE_DIR / 'finalized_model.pkl', 'rb') as model_file:
 
 
 
-# TODO: 
-#  write the API endpoints.  
-# YOUR CODE GOES HERE
+
 
 app = FastAPI()
 
