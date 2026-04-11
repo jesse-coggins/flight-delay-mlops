@@ -4,7 +4,7 @@
 This project builds an end-to-end machine learning workflow for predicting average departure delay in minutes for flights leaving a selected origin airport. It combines data preparation, DVC-based data versioning, MLflow experiment tracking, a FastAPI prediction service, unit tests, and deployment-oriented assets.
 
 ## Coursework Context
-This repository packages work originally completed as part of Western Governors University's (WGU) M.S. in Data Analytics program and reorganizes it into a public portfolio format.
+This project was completed as part of my M.S. in Data Analytics program at Western Governors University (WGU).
 
 ## Project Goal
 Create a reproducible pipeline that prepares airline on-time data, trains a delay prediction model, logs experiments, and serves predictions through an API.
@@ -96,3 +96,7 @@ This public portfolio repo keeps two parallel layouts for transparency:
 - The `src/` and `tests/` directories preserve the cleaned public portfolio structure used elsewhere in this repo.
 
 The original `MLproject` file was not available in the local coursework archive, so it is still not included here.
+
+---
+
+*\* I used Claude (Anthropic) to help organize and stage this coursework into a GitHub portfolio repository. The analysis, code, and results are entirely my own.*
