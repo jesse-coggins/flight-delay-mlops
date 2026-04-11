@@ -95,7 +95,7 @@ This public portfolio repo keeps two parallel layouts for transparency:
 - Root-level `Dockerfile`, `.gitlab-ci.yml`, `deployment_api.py`, `airport_encodings.json`, `finalized_model.pkl`, and `api_tests.py` preserve the original GitLab-style deployment artifacts restored from the original Task 3 coursework folder.
 - The `src/` and `tests/` directories preserve the cleaned public portfolio structure used elsewhere in this repo.
 
-The original `MLproject` file was not available in the local coursework archive, so it is still not included here.
+An `MLproject` file — the YAML config MLflow uses to define entry points and run a project via `mlflow run` — is not included here. The MLflow work in this repo is demonstrated through the experiment tracking notebook rather than as a runnable MLflow Project, so the file isn't required to follow or reproduce the workflow.
 
 ---
 
