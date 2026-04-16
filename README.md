@@ -96,7 +96,3 @@ This public portfolio repo keeps two parallel layouts for transparency:
 - The `src/` and `tests/` directories preserve the cleaned public portfolio structure used elsewhere in this repo.
 
 An `MLproject` file — the YAML config MLflow uses to define entry points and run a project via `mlflow run` — is not included here. The MLflow work in this repo is demonstrated through the experiment tracking notebook rather than as a runnable MLflow Project, so the file isn't required to follow or reproduce the workflow.
-
----
-
-*\* I used Claude (Anthropic) to help organize and stage this coursework into a GitHub portfolio repository. The analysis, code, and results are entirely my own.*
